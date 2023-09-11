@@ -465,9 +465,11 @@ header .menu.active {
   }
 
   header::after {
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: var(--primary);
+    /* background: var(--primary); */
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
   }
 
   .logo {
