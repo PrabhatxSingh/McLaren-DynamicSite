@@ -212,7 +212,7 @@ header .menu.active {
 .banner .content {
   position: relative;
   max-width: 700px;
-  padding-bottom: 80px;
+  padding-bottom: 130px;
   z-index: 100;
 }
 
@@ -395,7 +395,10 @@ header .menu.active {
   font-size: 1.3em;
   font-weight: 300;
   letter-spacing: 1px;
+  margin: 0;
+    margin-top: 10px;
 }
+
 
 .sci {
   position: absolute;
@@ -429,7 +432,7 @@ header .menu.active {
   display: none;
   position: absolute;
   left: 70%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   color: var(--primary);
   font-size: 8em;
@@ -526,7 +529,7 @@ header .menu.active {
 
   .banner .play,
   .banner .pause{
-    bottom: 50%;
-    right: 30%;
+    bottom: 100%;
+    right: 20%;
   }
 }
